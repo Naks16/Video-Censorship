@@ -1,10 +1,10 @@
-# 🎬 TrailerIQ — AI-Powered YouTube Trailer Metadata Extractor
+# TrailerIQ — AI-Powered YouTube Trailer Metadata Extractor
 
 Extract **50+ structured metadata fields** from any YouTube movie trailer using a 6-agent AI pipeline. Supports Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali, Marathi, Punjabi, English and more.
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 ```
 YouTube URL
@@ -105,7 +105,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🔑 API Keys
+## API Keys
 
 | Key | Required | Purpose | Get it |
 |-----|----------|---------|--------|
@@ -118,7 +118,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 📦 Output Structure
+##  Output Structure
 
 ```json
 {
@@ -178,7 +178,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -193,7 +193,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🌍 Supported Languages
+##  Supported Languages
 
 | Region | Languages |
 |--------|-----------|
@@ -207,7 +207,7 @@ Language detection uses **OpenAI Whisper** (primary) + `langdetect` (supplementa
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 e:\Video_Extraction\
@@ -247,7 +247,7 @@ e:\Video_Extraction\
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 All settings are in `.env`:
 
@@ -264,7 +264,7 @@ All settings are in `.env`:
 
 ---
 
-## 🚀 Performance Notes
+##  Performance Notes
 
 - **First run**: Whisper (`~150 MB`) and CLIP (`~350 MB`) models download automatically
 - **Processing time**: 2–5 min per trailer on CPU (Whisper is the bottleneck)
@@ -274,7 +274,7 @@ All settings are in `.env`:
 
 ---
 
-## 📋 Troubleshooting
+##  Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
